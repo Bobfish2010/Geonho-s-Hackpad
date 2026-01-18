@@ -14,12 +14,12 @@ First every hackpad project.
 
 <img width="1071" height="759" alt="image" src="https://github.com/user-attachments/assets/39c9387b-9e35-46db-bd43-c17c89f08e47" />
 
-# BOM
+# BOM:
 
--1x SEEEDUINO XIAO-RP2040-DIP
--2x SK6812 MINI LED
--4x SW_Push
--1x Case(2 printed parts)
--4x Blank DSA Keycaps
--4x M3x16 Bolt
--4x M3 Heatset
+- 1x SEEEDUINO XIAO-RP2040-DIP
+- 2x SK6812 MINI LED
+- 4x SW_Push
+- 1x Case(2 printed parts)
+- 4x Blank DSA Keycaps
+- 4x M3x16 Bolt
+- 4x M3 Heatset
