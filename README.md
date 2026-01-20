@@ -23,4 +23,4 @@ First every hackpad project.
 - 4x Blank DSA Keycaps
 - 4x M3x16 Bolt
 - 4x M3 Heatset
-- ec11 rotary encoder
+- 1x EC11 rotary encoder
