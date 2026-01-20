@@ -4,16 +4,15 @@ First every hackpad project.
 
 # Schematics
 
-<img width="1084" height="927" alt="image" src="https://github.com/user-attachments/assets/88a51ae8-01c1-478f-bca9-55116ed73fcc" />
+<img width="1618" height="1148" alt="image" src="https://github.com/user-attachments/assets/16294263-b638-4141-b22b-96d34e554b4d" />
 
 # PCBs design
 
 <img width="976" height="1060" alt="image" src="https://github.com/user-attachments/assets/fb8a8d62-bc59-48ad-8fc4-9e6f6691c456" />
 
-
 # CAD model
 
-<img width="1071" height="759" alt="image" src="https://github.com/user-attachments/assets/39c9387b-9e35-46db-bd43-c17c89f08e47" />
+<img width="851" height="633" alt="image" src="https://github.com/user-attachments/assets/96c6022b-0b8a-487c-96ee-178b16e5399c" />
 
 # BOM:
 
