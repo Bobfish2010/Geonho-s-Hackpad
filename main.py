@@ -4,18 +4,30 @@ import board
 # These are imports from the kmk library
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.scanners.keypad import KeysScanner
+from kmk.modules.encoder import EncoderHandler
 from kmk.keys import KC
 from kmk.modules.macros import Press, Release, Tap, Macros
 
 # This is the main instance of your keyboard
 keyboard = KMKKeyboard()
 
+# MouseKeys to support scrolling
+mouse_keys = MouseKeys()
+keyboard.modules.append(mouse_keys)
+
+# Add EncoderHandler
+encoder_handler = EncoderHandler()
+keyboard.modules.append(encoder_handler)
+
+# Define Encoder Pins (PinA, PinB, ClickPin)
+encoder_handler.pins = ((board.D6, board.D4),)
+
 # Add the macro extension
 macros = Macros()
 keyboard.modules.append(macros)
 
-# Define your pins here!
-PINS = [board.D3, board.D4, board.D2, board.D1]
+# Defining pins
+PINS = [board.D7, board.D8, board.D9, board.D10]
 
 # Tell kmk we are not using a key matrix
 keyboard.matrix = KeysScanner(
@@ -27,8 +39,13 @@ keyboard.matrix = KeysScanner(
 # Look here for keycodes: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/keycodes.md
 # And here for macros: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/macros.md
 keyboard.keymap = [
-    [KC.A, KC.DELETE, KC.MACRO("Hello world!"), KC.Macro(Press(KC.LCMD), Tap(KC.S), Release(KC.LCMD)),]
+    [KC.W, KC.A, KC.S, KC.D, , Release(KC.LCMD)),]
 ]
+
+# Map scroll behavior (CW = Scroll Up, CCW = Scroll Down)
+encoder_handler.map = (
+    ((KC.MS_WH_UP, KC.MS_WH_DOWN),),
+)
 
 # Start kmk!
 if __name__ == '__main__':
