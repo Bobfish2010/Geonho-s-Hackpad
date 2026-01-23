@@ -8,7 +8,7 @@ First every hackpad project.
 
 # PCBs design
 
-<img width="976" height="1060" alt="image" src="https://github.com/user-attachments/assets/fb8a8d62-bc59-48ad-8fc4-9e6f6691c456" />
+<img width="881" height="929" alt="image" src="https://github.com/user-attachments/assets/f3048f11-2a40-4522-b0fb-18bf68e603ee" />
 
 # CAD model
 
