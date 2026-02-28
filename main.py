@@ -39,7 +39,7 @@ keyboard.matrix = KeysScanner(
 # Look here for keycodes: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/keycodes.md
 # And here for macros: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/macros.md
 keyboard.keymap = [
-    [KC.W, KC.A, KC.S, KC.D, , Release(KC.LCMD)),]
+    [KC.W, KC.A, KC.S, KC.D, Release(KC.LCMD),]
 ]
 
 # Map scroll behavior (CW = Scroll Up, CCW = Scroll Down)
